@@ -2,7 +2,7 @@ import requests
 import json
 #URLS
 endpoint_url = 'https://api.spotify.com/v1/recommendations?'
-access_token = "BQCmk8cD-VAX7rUVLeN4TCh2o9irpcFAeLgDX0NZhQ5qAnrJynBr9ucKHk_zFrOqH9ishwhYqAesnJa2IesDN-NR_h9KtjzyzEEQe730yjra69HFd_QgH6P7vGBiUm6KkFStpkMQJYjSkZtVbd8romNzddlrlxKRrvB4uUmw4N2U5PxZ5u6ZCbUh5V6peETP_3CfkqY_I96zxaTRymH5BiBrLAmp53lv"
+access_token = 'BQD-KoekjY8Da_nmohDxjAetCzhi18JDo5CqBAbxS6zlAMzWNZH7baoP20OCAxwFioAREQkgGFpm1apON3Xj98h28e6WD13mrB7ElDvyPDjrNQ07tqHEebv_U1heIae4Qd2F0SEBXUpkmB9JU-FVGtzZ5ORq6z5H7dlT9dg_PPMwVZXUsJFXiXBcXRtGfyvwdlkuNjzuj_oOqH910nlslj2gQEV62S7VyroW_PqIq7i9Mq-VAGBnyQEEjTzXjyf_mvGbkallqSPrgmHJuLprKloxJa7p4bHhBAZx'
 personal_artist_url = 'https://api.spotify.com/v1/me/top/artists?limit=5'
 limit = 10
 personal_track_url = f'https://api.spotify.com/v1/me/top/tracks?limit={limit}'
